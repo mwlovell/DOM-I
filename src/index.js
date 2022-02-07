@@ -39,6 +39,7 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
   },
 };
 
+//images
 const logoImg = document.querySelector('#logo-img');
 logoImg.src = siteContent.images['logo-img'];
 
@@ -47,3 +48,12 @@ ctaImg.src = siteContent.images['cta-img'];
 
 const midImg = document.querySelector('#middle-img');
 midImg.src = siteContent.images['accent-img'];
+
+//footer
+const footerLink = document.querySelector('footer a');
+footerLink.textContent =siteContent.footer.copyright;
+footerLink.classList.add('bold');
+
+//contact
+const contact = document.querySelector('section.contact');
+contact.children[0].textContent = siteContent.contact['contact-h4'];
