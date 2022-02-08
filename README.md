@@ -30,6 +30,7 @@ Inside `src/index.js` there is declared an object literal containing all the dat
 
 * [ ] Declare variables pointing to the relevant DOM elements, using any of the selectors you have learned.
 
+
 ### Add text contents
 
 * [ ] Using your selectors, update the text contents of the relevant elements, matching the design file.
